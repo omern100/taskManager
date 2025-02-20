@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #3b82f6, #8b5cf6, #ec4899);
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    min-height: 100vh;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1 0 auto;
+    padding: 20px;
+  }
+  
+  #root {
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .header {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .header h1 {
+    color: #333;
+    font-size: 36px;
+  }
+  
+  .header h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .card.card-white {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 98%;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .card.card-white h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .card.card-white p {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .todo-list {
+    margin: 10px 0;
+  }
+  
+  .todo-list .todo-item {
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 0;
+  }
+  
+  .todo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .checker-container {
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+  
+  div.checker {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+  }
+  
+  div.checker input {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .task-details {
+    flex-grow: 1;
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  .task-priority {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .task-actions {
+    flex-shrink: 0;
+  }
+  
+  .sort-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-bottom: 15px; 
+  }
+  
+  .sort-container label {
+    font-size: 24px; 
+    color: #333;
+    margin-right: 10px;
+  }
+  .sort-container select {
+    font-size: 20px; 
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: transparent;
+  }
+  
+  .footer-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .footer-image,
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
