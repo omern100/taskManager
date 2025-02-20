@@ -5,7 +5,6 @@ import TaskList from "../components/TaskList";
 import AddTaskModal from "../components/AddTask";
 import Navbar from "../components/Navbar";
 import TaskSearch from "../components/TaskSearch";
-import Header from "../components/Header";
 
 const TaskManager = () => {
   const [tasks, setTasks] = useState([]);
@@ -97,7 +96,6 @@ const TaskManager = () => {
           </div>
         </div>
       </div>
-      <Header />
     </div>
   );
 };
