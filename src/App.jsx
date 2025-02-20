@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TaskManager from "./routes/TaskManager";
 import ArchivedTasks from "./routes/ArchivedTasks";
 import Footer from "./components/Footer"
-import Header from "./components/Header"
+import NewsTicker from "./components/NewsComp";
 
 const App = () => {
   return (
     <>
+    <NewsTicker />
     <Router>
       <Routes>
         <Route path="/" element={<TaskManager />} />

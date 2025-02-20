@@ -34,7 +34,6 @@ body {
   margin-top: 10px;
 }
 
-/* Card Styles */
 .card {
   padding: 2em;
 }
@@ -61,7 +60,6 @@ body {
   color: #333;
 }
 
-/* Modal Styles */
 .modal-title {
   font-size: 24px;
   margin-bottom: 10px;
@@ -69,7 +67,6 @@ body {
   text-align: center;
 }
 
-/* Todo List Styles */
 .todo-list {
   margin: 10px 0;
 }
@@ -96,7 +93,6 @@ div.checker input {
   text-decoration: line-through;
 }
 
-/* Footer Styles */
 .footer {
   position: fixed;
   bottom: 0;
@@ -126,7 +122,6 @@ div.checker input {
   text-align: center;
 }
 
-/* Logo Styles */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -142,12 +137,10 @@ div.checker input {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Misc Styles */
 .read-the-docs {
   color: #888;
 }
 
-/* Animations */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -162,4 +155,8 @@ div.checker input {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+.main-content {
+  margin-top: 40px; 
 }
