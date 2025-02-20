@@ -57,3 +57,7 @@
 
 לחץ כאן לצפייה בהדגמה החיה
 https://task-manager-gold-gamma.vercel.app/
+
+ליצירת קשר- 
+עומר נגר - omern100@gmail.com
+אסף אלגלי - asafelgali@gmail.com 
