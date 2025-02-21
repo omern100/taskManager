@@ -50,7 +50,10 @@
 
 <br><br><br><br>
 ## תמונות האתר
+<code>route TaskManager</code>
 ![תמונה של האתר1](https://github.com/user-attachments/assets/1d292c26-119d-4283-959a-678dbd44c769)
+<code>route Archive</code>
+
 ![תמונה של האתר2](https://github.com/user-attachments/assets/1b51c1f0-3ac0-4ec0-b97d-843432c5d0f9)
 
 ### 🌐 קישורים חשובים
