@@ -3,8 +3,9 @@
 
 ## ברוכים הבאים ל-Task Manager! 🚀
 
-![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f)
-<br><br><br><br>
+![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f) ![myPhoto](https://github.com/user-attachments/assets/2fe53ca4-b1ba-4958-a901-a5f8dc433e97)![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f) 
+
+
 ## 💡 פונקציונליות האתר  
 
 * **➕ יצירת משימה חדשה**
