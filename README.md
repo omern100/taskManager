@@ -4,7 +4,10 @@
 ## ברוכים הבאים ל-Task Manager! 🚀
 
 ![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f) ![myPhoto](https://github.com/user-attachments/assets/2934da73-29cd-42a9-b3bd-49f97cd3c295)
-![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f) 
+![תמונה ראשית](https://github.com/user-attachments/assets/e2fef348-bc44-447a-8217-581dc673170f)  
+
+**צפייה באתר:**  
+[Task Manager](https://task-manager-gold-gamma.vercel.app/)
 
 
 ## 💡 פונקציונליות האתר  
